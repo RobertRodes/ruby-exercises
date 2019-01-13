@@ -5,34 +5,34 @@ instance in a data table. So, I've set this up as a "sandbox" where I can try ou
 =end
 
 colors = 
-	{
-		color: "red",
-		value: "#f00"
-	},
-	{
-		color: "green",
-		value: "#0f0"
-	},
-	{
-		color: "blue",
-		value: "#00f"
-	},
-	{
-		color: "cyan",
-		value: "#0ff"
-	},
-	{
-		color: "magenta",
-		value: "#f0f"
-	},
-	{
-		color: "yellow",
-		value: "#ff0"
-	},
-	{
-		color: "black",
-		value: "#000"
-	}
+  {
+    color: "red",
+    value: "#f00"
+  },
+  {
+    color: "green",
+    value: "#0f0"
+  },
+  {
+    color: "blue",
+    value: "#00f"
+  },
+  {
+    color: "cyan",
+    value: "#0ff"
+  },
+  {
+    color: "magenta",
+    value: "#f0f"
+  },
+  {
+    color: "yellow",
+    value: "#ff0"
+  },
+  {
+    color: "black",
+    value: "#000"
+  }
 
 puts "Colors:"
 colors.each{ |x| puts x[:color] + ": " + x[:value] }
